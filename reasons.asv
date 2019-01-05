@@ -1,0 +1,2 @@
+reasonLabels = ['Networkin' ,	'Sharing best practice'	,"Supporting diversity in the workplace" ,	"Women" 	,"LGBTQ+" ,	"Disability" ,	"Mental Health", 	"Ethnic Diversity"];
+bar(reasonLabels,reasonNums./37)

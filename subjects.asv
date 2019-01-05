@@ -1,0 +1,8 @@
+labs = categorical(communityLabs)
+bar(labs,communityNums)
+for i1=1:numel(community.*100)
+    t = text(c(i1),percents(i1)*100,num2str(percents(i1)*100,'%0.1f'),...
+               'HorizontalAlignment','center',...
+               'VerticalAlignment','bottom');
+           t.FontSize = 20;
+end
